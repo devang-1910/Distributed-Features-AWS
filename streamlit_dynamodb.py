@@ -33,7 +33,7 @@ def fetch_failed_records_from_dlq():
     Fetch messages from the DLQ and return as a DataFrame.
     """
     sqs = boto3.client('sqs', region_name='us-east-2')
-    dlq_url = "https://sqs.us-east-2.amazonaws.com/490004609496/LambdaDLQ"
+    dlq_url = "YOUR_DLQ_URL"
 
     failed_records = []
     try:
