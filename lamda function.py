@@ -14,7 +14,7 @@ dynamodb_client = boto3.client('dynamodb')
 sqs_client = boto3.client('sqs')
 
 # Replace with your DLQ URL----------------
-DLQ_URL = "https://sqs.us-east-2.amazonaws.com/490004609496/LambdaDLQ"
+DLQ_URL = "YOUR DLQ_URL"
 
 
 # Message Management to DLQ-----------------
